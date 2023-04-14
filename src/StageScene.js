@@ -23,10 +23,11 @@ export class StageScene extends Phaser.Scene {
         var player = this.physics.add.sprite(400, 300, 'dude_idle')
         player.setBounce(0.2)
         player.setCollideWorldBounds(true)
-
+        /*
         this.anims.create({
             key:
         })
+        */
     }
 
 
